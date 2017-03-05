@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="MediaManagement" SymbolicName="MediaManagement" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="MediaManagement.Activator" Policy="Immediate" />
+
+  <Runtime>
+    <Assembly Path="bin\MediaManagement.dll" Share="false" />
+    <Assembly Path="bin\BusinessLayer.dll" Share="true" />
+  </Runtime>
+</Bundle>

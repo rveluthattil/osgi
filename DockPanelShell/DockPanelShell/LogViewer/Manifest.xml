@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="LogViewer">
+  <Activator Type="LogViewer.Activator" />
+  <Runtime>
+    <Assembly Path="LogViewer.dll;log4net.dll" />
+    <Dependency BundleSymbolicName="UIShell.Document" />
+  </Runtime>
+
+  <!--Toolbar Extension-->
+  <Extension Point="ToolBar">
+    <ToolStrip id="Logger">
+      <ToolbarItem icon="LogViewer.Resources.ReportEdit.ico" class="LogViewer.LogViewProvider" text="Logger" />
+    </ToolStrip>
+  </Extension>
+
+</Bundle>

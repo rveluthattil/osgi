@@ -1,0 +1,8 @@
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\MediaManagement.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\MediaManagement.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\BusinessLayer.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\UIShell.OSGi.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\BusinessLayer.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\obj\Debug\MediaManagement.csprojResolveAssemblyReference.cache
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\obj\Debug\MediaManagement.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\obj\Debug\MediaManagement.pdb

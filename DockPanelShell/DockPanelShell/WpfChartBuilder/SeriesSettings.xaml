@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="ChartBuilder.SeriesSettings" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:l="clr-namespace:ChartBuilder">
+  <UserControl.Resources>
+    <Style x:Key="SubSpacerStyle" TargetType="StackPanel">
+      <Setter Property="Height" Value="10" />
+    </Style>
+
+    <Style x:Key="SpacerStyle" TargetType="StackPanel">
+      <Setter Property="Height" Value="15" />
+    </Style>
+  </UserControl.Resources>
+  <StackPanel>
+    <l:LabeledTextBox x:Name="SeriesTitle" Label="Series Title: " IsChecked="True"
+                      TextChanged="ValueChanged_UpdateProperties" CheckedChanged="ValueChanged_UpdateProperties" />
+    <ComboBox x:Name="SeriesType" SelectionChanged="SeriesType_SelectionChanged" />
+    <ComboBox x:Name="ValueSource" SelectionChanged="ValueSource_SelectionChanged" />
+    <l:LabeledSlider x:Name="NumberOfPoints" Label="Number Of Points: " Minimum="0" Maximum="20" Value="4"
+                     ValueChanged="ValueChanged_UpdateCollection" />
+    <l:LabeledSlider x:Name="StartingValue" Label="Starting Value: " Minimum="-20" Maximum="20" Value="1"
+                     Decimals="2" ValueChanged="ValueChanged_UpdateCollection" />
+    <l:LabeledSlider x:Name="EndingValue" Label="Ending Value: " Minimum="-20" Maximum="20" Value="5" Decimals="2"
+                     ValueChanged="ValueChanged_UpdateCollection" />
+    <CheckBox x:Name="RandomizeValues" Content="Randomize Values" Checked="ValueChanged_UpdateCollection"
+              Unchecked="ValueChanged_UpdateCollection" />
+    <StackPanel x:Name="ValueContainer">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition />
+          <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+          <Button x:Name="AllDoublesA" Content="All Doubles" Click="AllValuesToType_Click" />
+          <Button x:Name="AllDatesA" Content="All Dates" Click="AllValuesToType_Click" />
+          <Button x:Name="AllStringsA" Content="All Strings" Click="AllValuesToType_Click" />
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+          <Button x:Name="AllDoublesB" Content="All Doubles" Click="AllValuesToType_Click" />
+        </StackPanel>
+      </Grid>
+    </StackPanel>
+    <CheckBox x:Name="SelectionEnabled" Content="Selection Enabled" Checked="ValueChanged_UpdateProperties"
+              Unchecked="ValueChanged_UpdateProperties" />
+    <CheckBox x:Name="IndependentAxis" Content="Independent Axis" Checked="IndependentAxis_SelectionChanged"
+              Unchecked="IndependentAxis_SelectionChanged" />
+    <l:AxisSettings x:Name="IndependentAxisSettings" Margin="8,0,0,0" Visibility="Collapsed" />
+    <CheckBox x:Name="DependentAxis" Content="Dependent Axis" Checked="DependentAxis_SelectionChanged"
+              Unchecked="DependentAxis_SelectionChanged" />
+    <l:AxisSettings x:Name="DependentAxisSettings" Margin="8,0,0,0" Visibility="Collapsed" />
+
+    <StackPanel Style="{StaticResource SubSpacerStyle}" />
+  </StackPanel>
+</UserControl>

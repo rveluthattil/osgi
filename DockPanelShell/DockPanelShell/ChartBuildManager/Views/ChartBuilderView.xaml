@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="ChartBuildManager.Views.ChartBuilderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:l="clr-namespace:ChartBuilder;assembly=ChartBuilder"
+             Height="300" Width="300">
+  <Grid>
+    <!--<l:Page/>-->
+       
+  </Grid>
+</UserControl>

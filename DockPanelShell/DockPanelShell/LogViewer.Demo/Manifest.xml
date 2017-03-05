@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="LogViewer.Demo">
+
+  <Runtime>
+    <Assembly Path="LogViewer.Demo.dll" />
+    <Dependency BundleSymbolicName="LogViewer" />
+  </Runtime>
+
+  <!--Extension of Toolbar-->
+  <Extension Point="ToolBar">
+    <ToolStrip id="Logger">
+      <ToolbarItem icon="LogViewer.Demo.Resources.ReportEdit.ico" class="LogViewer.Demo.CreateLogDemo" text="LogDemo" />
+    </ToolStrip>
+  </Extension>
+
+</Bundle>

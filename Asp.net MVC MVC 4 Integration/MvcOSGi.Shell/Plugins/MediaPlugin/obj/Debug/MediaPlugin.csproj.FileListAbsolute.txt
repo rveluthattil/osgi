@@ -1,0 +1,13 @@
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\MediaPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\MediaPlugin.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\BusinessLayer.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\System.Web.Helpers.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\System.Web.Mvc.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\System.Web.Razor.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\System.Web.WebPages.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\UIShell.OSGi.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\BusinessLayer.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\obj\Debug\MediaPlugin.csprojResolveAssemblyReference.cache
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\obj\Debug\MediaPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\obj\Debug\MediaPlugin.pdb

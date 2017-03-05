@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="ImageViewer" StartLevel="60">
+  <Runtime>
+    <Assembly Path="ImageViewer.dll" />
+    <Dependency BundleSymbolicName="UIShell.Document" />
+  </Runtime>
+
+
+  <!--扩展File filter-->
+  <Extension Point="FileFilters">
+    <Document type="ImageViewer.ImageDocumentFactory" />
+  </Extension>
+
+</Bundle>

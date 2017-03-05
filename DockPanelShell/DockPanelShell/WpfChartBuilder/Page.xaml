@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="ChartBuilder.Page" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:l="clr-namespace:ChartBuilder">
+  <Grid>
+    <Grid.Resources>
+      <Style x:Key="SubSpacerStyle" TargetType="StackPanel">
+        <Setter Property="Height" Value="10" />
+      </Style>
+
+      <Style x:Key="SpacerStyle" TargetType="StackPanel">
+        <Setter Property="Height" Value="15" />
+      </Style>
+      <Style x:Key="HeaderStyle" TargetType="ContentControl">
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Margin" Value="5" />
+      </Style>
+      <SolidColorBrush x:Key="ReadOnlyTextBoxBackground" Color="LightGray" />
+    </Grid.Resources>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="2*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <ScrollViewer Grid.Column="0" Grid.RowSpan="2">
+      <StackPanel>
+        <ContentControl Content="Chart" Style="{StaticResource HeaderStyle}" />
+        <l:LabeledTextBox x:Name="ChartTitle" Label="Chart Title: " Text="Title" IsChecked="True"
+                          TextChanged="ValueChanged_UpdateChart" CheckedChanged="ValueChanged_UpdateChart" />
+        <l:LabeledTextBox x:Name="LegendTitle" Label="Legend Title: " Text="Legend" IsChecked="True"
+                          TextChanged="ValueChanged_UpdateChart" CheckedChanged="ValueChanged_UpdateChart" />
+
+        <StackPanel Style="{StaticResource SpacerStyle}" />
+
+        <ContentControl Content="Series" Style="{StaticResource HeaderStyle}" />
+        <l:LabeledSlider x:Name="NumberOfSeries" Label="Number of Series: " Minimum="0" Maximum="3" Value="1"
+                         Decimals="0" ValueChanged="ValueChanged_UpdateChart" />
+        <StackPanel Style="{StaticResource SubSpacerStyle}" />
+        <ItemsControl x:Name="SeriesSettingsContainer" />
+
+        <ContentControl x:Name="AxesHeader" Content="Axes" Style="{StaticResource HeaderStyle}" />
+        <l:LabeledSlider x:Name="NumberOfAxes" Label="Number of Axes: " Minimum="0" Maximum="4" Value="0"
+                         Decimals="0" ValueChanged="ValueChanged_UpdateChart" />
+        <StackPanel Style="{StaticResource SubSpacerStyle}" />
+        <ItemsControl x:Name="AxisSettingsContainer" />
+
+        <ContentControl Content="General" Style="{StaticResource HeaderStyle}" />
+        <Button x:Name="RecreateChart" Content="Recreate Chart" Foreground="Green"
+                Click="ValueChanged_CreateChart" />
+        <CheckBox x:Name="AllowXamlEditing" Content="Allow XAML Editing" Checked="AllowXamlEditing_Changed"
+                  Unchecked="AllowXamlEditing_Changed" />
+
+        <StackPanel Style="{StaticResource SpacerStyle}" />
+        <StackPanel Style="{StaticResource SpacerStyle}" />
+
+        <ContentControl Content="ChartBuilder - 2009-03-20" Foreground="Gray" />
+        <TextBlock Text="http://blogs.msdn.com/Delay/" Foreground="Blue" TextDecorations="Underline"
+                   Cursor="Hand" MouseLeftButtonDown="BlogLinkMouseLeftButtonDown" />
+      </StackPanel>
+    </ScrollViewer>
+
+    <Border Grid.Column="1" Grid.Row="0" BorderThickness="1" Margin="2" Padding="5">
+      <Border.BorderBrush>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+          <GradientStop Color="#FFA3AEB9" Offset="0" />
+          <GradientStop Color="#FF8399A9" Offset="0.375" />
+          <GradientStop Color="#FF718597" Offset="0.375" />
+          <GradientStop Color="#FF617584" Offset="1" />
+        </LinearGradientBrush>
+      </Border.BorderBrush>
+      <Grid x:Name="ChartDisplayPanel" />
+    </Border>
+
+    <TextBox x:Name="ChartXamlTextBox" Grid.Column="1" Grid.Row="1" IsReadOnly="True"
+             Background="{StaticResource ReadOnlyTextBoxBackground}" AcceptsReturn="True" TextChanged="ChartXamlTextBox_TextChanged"
+             HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="2" />
+  </Grid>
+</UserControl>

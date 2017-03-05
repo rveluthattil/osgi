@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="UIShell.Document" StartLevel="10">
+  <Activator Type="UIShell.Document.Activator" />
+  <Runtime>
+    <Assembly Path="UIShell.Document.dll" />
+    <Dependency BundleSymbolicName="UIShell.MessageBusService" />
+  </Runtime>
+
+  <!--定义MainMenu扩展点-->
+  <ExtensionPoint Point="MainMenu">
+    <ToolStripMenuItem text="Edit" type="Menu">
+      <ToolbarItem icon="UIShell.Document.Resources.Copy.png" command="Copy" text="Copy" />
+      <ToolbarItem icon="UIShell.Document.Resources.Cut.png" command="Cut" text="Cut" />
+      <ToolbarItem icon="UIShell.Document.Resources.Delete.png" command="Delete" text="Delete" />
+      <ToolbarItem icon="UIShell.Document.Resources.Paste.png" command="Paste" text="Paste" />
+      <ToolbarItem icon="UIShell.Document.Resources.Undo.png" command="Undo" text="Undo" />
+      <ToolbarItem icon="UIShell.Document.Resources.Redo.png" command="Redo" text="Redo" />
+    </ToolStripMenuItem>
+  </ExtensionPoint>
+
+  <!--定义Toolbar扩展点-->
+  <ExtensionPoint Point="ToolBar">
+    <ToolbarItem icon="UIShell.Document.Resources.Copy.png" command="Copy" />
+    <ToolbarItem icon="UIShell.Document.Resources.Cut.png" command="Cut" />
+    <ToolbarItem icon="UIShell.Document.Resources.Delete.png" command="Delete" />
+    <ToolbarItem icon="UIShell.Document.Resources.Paste.png" command="Paste" />
+    <ToolbarItem icon="UIShell.Document.Resources.Undo.png" command="Undo" />
+    <ToolbarItem icon="UIShell.Document.Resources.Redo.png" command="Redo" />
+  </ExtensionPoint>
+  
+  <!--定义打开文档的扩展点-->
+  <ExtensionPoint Point="FileFilters" />
+</Bundle>

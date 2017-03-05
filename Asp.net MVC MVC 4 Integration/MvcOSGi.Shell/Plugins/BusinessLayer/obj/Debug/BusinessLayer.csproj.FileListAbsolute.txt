@@ -1,0 +1,5 @@
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BusinessLayer\obj\Debug\BusinessLayer.pdb

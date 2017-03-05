@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="ChartBuildManager">
+  <Activator Type="ChartBuildManager.Activator" />
+  <Runtime>
+    <Assembly Path="ChartBuildManager.dll" />
+    <Assembly Path="ChartBuilder.dll" />
+    <Assembly Path="WPFToolkit.dll" />
+    <Assembly Path="System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    <Dependency BundleSymbolicName="UIShell.Document" />
+  </Runtime>
+
+  <!--扩展Toolbar-->
+  <Extension Point="ToolBar">
+    <ToolStrip id="ChartBuilder">
+      <ToolbarItem icon="ChartBuildManager.Resources.ChartBuilder.png"
+                   class="ChartBuildManager.ShowChartBuilderManager" />
+    </ToolStrip>
+  </Extension>
+
+</Bundle>

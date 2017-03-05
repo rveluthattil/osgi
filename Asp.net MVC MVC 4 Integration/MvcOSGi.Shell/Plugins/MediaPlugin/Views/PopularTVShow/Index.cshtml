@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<script type="text/javascript">
+    PageId = 0;
+</script>
+<div class="article">
+    <h4> This page is provided by plugin <a>MediaPlugin</a>, it uses <a>IOC plugin</a> to get the data access instance to load data.</h4>
+    <br/>
+    
+    <table width="400">
+        <tr>
+            <th width="70%" align="left">Movice</th>
+            <th width="30%" align="left">Rating</th>
+        </tr>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td><a href="#">@movie.Name</a></td>
+                <td>@movie.Rating</td>
+               
+                <td> @Html.ActionLink("Delete", "Delete", new { plugin="MediaPlugin", id=movie.Id})</td>
+            </tr>
+        }
+    </table>
+   
+</div>

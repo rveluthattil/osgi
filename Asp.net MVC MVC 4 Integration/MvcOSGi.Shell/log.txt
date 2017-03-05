@@ -1,0 +1,118 @@
+Tue, 13 Dec 2016 14:47:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.IoCPlugin, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.IoCPlugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac.Integration.Mvc, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.IoCPlugin' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac.Integration.Mvc, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.IoCPlugin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.IoCPlugin' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.IoCPlugin, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\WebServiceWrapperService\UIShell.WebServiceWrapperService.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\RemotingManagement\UIShell.RemotingManagement.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\RemotingManagement\ICSharpCode.SharpZipLib.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BlogPlugin, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'BlogPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:BlogPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\BlogPlugin\bin\BlogPlugin.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'BlogPlugin' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'BlogPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'BlogPlugin' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'BlogPlugin, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'ContactUsPlugin, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ContactUsPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:ContactUsPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\ContactUsPlugin.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'ContactUsPlugin' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'ContactUsPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'ContactUsPlugin' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'ContactUsPlugin, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'MediaManagement, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'MediaManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\BusinessLayer.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'MediaManagement' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:MediaManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaManagement\bin\MediaManagement.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'MediaManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'MediaManagement' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'MediaManagement, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'MediaPlugin, 1.0.0.0' is starting.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'MediaPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'MediaPlugin' to top level referenced assemblies.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Registering assembly:MediaPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null(C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\MediaPlugin\bin\MediaPlugin.dll) to IoC container.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'MediaPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'MediaPlugin' to top level referenced assemblies since the bundle is active.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'MediaPlugin, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   WebSite is started.
+Tue, 13 Dec 2016 14:47:06 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Tue, 13 Dec 2016 14:47:06 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Home' from bundle ''.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Home' from bundle ''.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_ka4144pu, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:07 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_3xg0d3w1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_mq12wwp1, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.0.0.0, Culture=en, PublicKeyToken=31bf3856ad364e35'.
+Tue, 13 Dec 2016 14:47:08 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.HtmlParser, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Tue, 13 Dec 2016 14:47:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Support' from bundle 'BlogPlugin' and then added to cache.
+Tue, 13 Dec 2016 14:47:11 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Support' from bundle 'BlogPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_sqo0fr2a, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_n3pjtmyx, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'About' from bundle 'ContactUsPlugin' and then added to cache.
+Tue, 13 Dec 2016 14:47:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'About' from bundle 'ContactUsPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_gnxgly3q, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_pmoahhlf, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:16 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Blog' from bundle 'BlogPlugin' and then added to cache.
+Tue, 13 Dec 2016 14:47:16 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Blog' from bundle 'BlogPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:16 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_j541mfth, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:16 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Blog' from bundle 'BlogPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:16 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Blog' from bundle 'BlogPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:17 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Contact' from bundle 'ContactUsPlugin' and then added to cache.
+Tue, 13 Dec 2016 14:47:17 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Contact' from bundle 'ContactUsPlugin' by using cache.
+Tue, 13 Dec 2016 14:47:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_nekqwujw, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Tue, 13 Dec 2016 14:47:20 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Home' from bundle ''.
+Tue, 13 Dec 2016 14:47:20 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load controller 'Home' from bundle ''.
+Tue, 13 Dec 2016 14:48:36 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Dectect that the framework is in 'Started' state.

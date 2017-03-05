@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="ContactUsPlugin" SymbolicName="ContactUsPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="ContactUsPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\ContactUsPlugin.dll" Share="false" />
+  </Runtime>
+
+  <Extension Point="MainMenu">
+      <Item url="/About/Index?plugin=ContactUsPlugin" text="About Us" order="3"/>
+      <Item url="/ContactUsPlugin/Contact/Index" text="Contact Us" order="5"/>
+  </Extension>
+</Bundle>

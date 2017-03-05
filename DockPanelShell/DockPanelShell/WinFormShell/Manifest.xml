@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="WinFormShell" StartLevel="2">
+  <Activator Type="WinFormShell.Activator" />
+  <Runtime>
+    <Assembly Path="WinFormShell.dll" />
+    <Assembly Path="WeifenLuo.WinFormsUI.Docking.dll"/>
+  </Runtime>
+</Bundle>

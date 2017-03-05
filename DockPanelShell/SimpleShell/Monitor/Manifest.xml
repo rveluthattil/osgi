@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="Monitor" StartLevel="61">
+  <Activator Type="Monitor.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="Monitor.dll" Share="false" />
+  </Runtime>
+  <Extension Point="ToolBar">
+    <ToolStrip>
+      <ToolbarItem  class="Monitor.MonitorCommand" icon="Monitor.Resources.monitor.png"/>
+      <ToolbarItem class="Monitor.SmsServer" icon="Monitor.Resources.smserver.png"/>
+    </ToolStrip>
+  </Extension>
+  <Extension Point="MainMenu">
+    <ToolStripMenuItem text="Tools" type="Menu">
+      <ToolbarItem text="Monitor" class="Monitor.MonitorCommand" icon="Monitor.Resources.monitor.png"/>
+      <ToolbarItem type="Separator" />
+      <ToolbarItem text="SmsServer" class="Monitor.SmsServer" icon="Monitor.Resources.smserver.png"/>
+    </ToolStripMenuItem>
+  </Extension>
+  <Extension Point="Navigation">
+    <NavigationItem text="Test"/>
+    <NavigationItem text="Test2"/>
+  </Extension>
+</Bundle>

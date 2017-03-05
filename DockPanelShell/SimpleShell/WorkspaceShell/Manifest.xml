@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0"  SymbolicName="WorkspaceShell"  InitializedState="Active">
+  <Activator Type="WorkspaceShell.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="WorkspaceShell.dll" Share="false" />
+  </Runtime>
+  <ExtensionPoint Point="ToolBar"/>
+  <ExtensionPoint Point="MainMenu"/>
+  <ExtensionPoint Point="Navigation"/>
+</Bundle>

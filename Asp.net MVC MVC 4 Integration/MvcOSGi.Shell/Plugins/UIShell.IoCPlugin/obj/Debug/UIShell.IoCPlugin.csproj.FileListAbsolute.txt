@@ -1,0 +1,11 @@
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\UIShell.IoCPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\UIShell.IoCPlugin.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\Autofac.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\Autofac.Integration.Mvc.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\System.Web.Mvc.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\UIShell.OSGi.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\UIShell.OSGi.MvcWebExtension.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\bin\UIShell.OSGi.WebExtension.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\obj\Debug\UIShell.IoCPlugin.csprojResolveAssemblyReference.cache
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\obj\Debug\UIShell.IoCPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\UIShell.IoCPlugin\obj\Debug\UIShell.IoCPlugin.pdb

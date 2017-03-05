@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="MediaPlugin" SymbolicName="MediaPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="MediaPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\MediaPlugin.dll" Share="false" />
+  </Runtime>
+
+  <Extension Point="SidebarMenu">
+      <Item url="/MediaPlugin/PopularTVShow/Index" text="Popular Movie" order="0"/>
+    <Item url="https://osgi.codeplex.com/" text="OSGi.NET" order="0"/>
+    <Item url="#" text="Style" order="0"/>
+    <Item url="#" text="Blog" order="0"/>
+    <Item url="#" text="Archives" order="0"/>
+  </Extension>
+</Bundle>

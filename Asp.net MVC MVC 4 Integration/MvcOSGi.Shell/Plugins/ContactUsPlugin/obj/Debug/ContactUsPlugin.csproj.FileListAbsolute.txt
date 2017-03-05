@@ -1,0 +1,11 @@
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\ContactUsPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\ContactUsPlugin.pdb
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\System.Web.Helpers.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\System.Web.Mvc.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\System.Web.Razor.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\System.Web.WebPages.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\bin\UIShell.OSGi.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\obj\Debug\ContactUsPlugin.csprojResolveAssemblyReference.cache
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\obj\Debug\ContactUsPlugin.dll
+C:\Users\rveluth\Documents\Visual Studio 2015\Projects\osgi\Asp.net MVC MVC 4 Integration\MvcOSGi.Shell\Plugins\ContactUsPlugin\obj\Debug\ContactUsPlugin.pdb

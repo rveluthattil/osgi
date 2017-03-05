@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="UIShell.MessageBusService" StartLevel="2" Version="1.0.0.15">
+  <Activator Type="UIShell.MessageBusService.Activator" />
+  <Runtime>
+    <Assembly Path="UIShell.MessageBusService.dll" />
+  </Runtime>
+  <!--
+  <Services>
+    <Service Interface="UIShell.MessageBusService.IMessageBusService" Type="UIShell.MessageBusService.Impl.MsmqMessageBusService"/>
+  </Services>
+  -->
+</Bundle>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="RTFEditor" StartLevel="60">
+  <Runtime>
+    <Assembly Path="RTFEditor.dll" />
+    <Dependency BundleSymbolicName="UIShell.Document" />
+  </Runtime>
+
+  <!--扩展Toolbar-->
+  <Extension Point="ToolBar">
+    <ToolStrip id="TextEditor">
+      <ToolbarItem icon="RTFEditor.Resources.NewDocument.png" command="NewDocument" />
+      <ToolbarItem tooltip="Open existing file" icon="RTFEditor.Resources.Open.png" command="Open" />
+      <ToolbarItem type="Separator" />
+      <ToolbarItem icon="RTFEditor.Resources.Save.png" command="Save" />
+    </ToolStrip>
+  </Extension>
+
+
+  <Extension Point="MainMenu">
+    <ToolStripMenuItem text="File" type="Menu">
+      <ToolbarItem icon="RTFEditor.Resources.NewDocument.png" command="NewDocument" text="New" />
+      <ToolbarItem tooltip="Open existing file" icon="RTFEditor.Resources.Open.png" command="Open" text="Open" />
+      <ToolbarItem type="Separator" />
+      <ToolbarItem icon="RTFEditor.Resources.Save.png" command="Save" text="Save" />
+    </ToolStripMenuItem>
+  </Extension>
+  
+  <!--扩展File filter-->
+  <Extension Point="FileFilters">
+    <Document type="RTFEditor.RTFDocumentFactory" />
+  </Extension>
+
+</Bundle>
